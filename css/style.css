@@ -1,0 +1,76 @@
+body {
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -ms-grid-rows: (auto)[1];
+      grid-template-rows: repeat(1, auto);
+  background: purple;
+}
+
+#UI {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+}
+
+#bord {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-columns: (100px)[4];
+      grid-template-columns: repeat(4, 100px);
+  -ms-grid-rows: (100px)[12];
+      grid-template-rows: repeat(12, 100px);
+  margin: auto;
+  overflow: scroll;
+  height: 100vh;
+}
+
+#feedback {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-columns: (100px)[4];
+      grid-template-columns: repeat(4, 100px);
+  -ms-grid-rows: (100px)[12];
+      grid-template-rows: repeat(12, 100px);
+  margin: auto;
+  overflow: scroll;
+  height: 100vh;
+}
+
+#pins {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100px)[4];
+      grid-template-columns: repeat(4, 100px);
+}
+
+#answers {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  margin: auto;
+  height: 100px;
+  width: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100px)[4];
+      grid-template-columns: repeat(4, 100px);
+}
+
+#gap {
+  border: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */

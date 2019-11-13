@@ -1,0 +1,54 @@
+body{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
+    background: purple;
+}
+
+#UI{
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+#bord{
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(12, 100px);
+    margin: auto;
+    overflow: scroll;
+    height: 100vh;
+}
+
+#feedback{
+    display: grid;
+    grid-column: 2;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(12, 100px);
+    margin: auto;
+    overflow: scroll;
+    height: 100vh;
+}
+
+#pins{
+    grid-column: 3;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
+
+#answers{
+    grid-column: 1;
+    margin: auto;
+    height: 100px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
+
+#gap{
+    border: 1px solid white;
+}
