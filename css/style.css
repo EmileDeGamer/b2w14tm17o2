@@ -2,10 +2,10 @@ body {
   margin: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[3];
-      grid-template-columns: repeat(3, auto);
-  -ms-grid-rows: (auto)[1];
-      grid-template-rows: repeat(1, auto);
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -ms-grid-rows: (200px)[4];
+      grid-template-rows: repeat(4, 200px);
   background: #fff7ea;
 }
 
@@ -31,6 +31,7 @@ body {
       grid-template-rows: repeat(12, 100px);
   margin: auto;
   overflow: scroll;
+  overflow-x: hidden;
   height: 100vh;
 }
 
@@ -45,32 +46,67 @@ body {
       grid-template-rows: repeat(12, 100px);
   margin: auto;
   overflow: scroll;
+  overflow-x: hidden;
   height: 100vh;
 }
 
+#stats {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100px)[1];
+      grid-template-columns: repeat(1, 100px);
+  -ms-grid-rows: (100px)[1];
+      grid-template-rows: repeat(1, 100px);
+  margin: auto;
+}
+
 #pins {
-  -ms-grid-column: 3;
-  grid-column: 3;
+  -ms-grid-column: 1;
+  grid-column: 1;
   margin: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (100px)[4];
-      grid-template-columns: repeat(4, 100px);
+  -ms-grid-columns: (100px)[6];
+      grid-template-columns: repeat(6, 100px);
 }
 
 #answers {
   -ms-grid-column: 1;
   grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
   margin: auto;
-  height: 100px;
-  width: 400px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (100px)[4];
       grid-template-columns: repeat(4, 100px);
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 #gap {
-  border: 1px solid white;
+  border: 1px solid black;
+}
+
+#check {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  border: 1px solid black;
+  height: 100px;
+  width: 250px;
+  margin: auto;
+  background: white;
+}
+
+#check:hover {
+  background: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
