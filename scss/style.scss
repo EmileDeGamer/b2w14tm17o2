@@ -3,9 +3,9 @@ body{
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(1, auto);
-    background: purple;
+    background: rgb(258, 247, 234);
 }
-
+ 
 #UI{
     grid-row: 1;
     grid-column: 2;

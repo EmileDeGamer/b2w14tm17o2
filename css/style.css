@@ -6,7 +6,7 @@ body {
       grid-template-columns: repeat(3, auto);
   -ms-grid-rows: (auto)[1];
       grid-template-rows: repeat(1, auto);
-  background: purple;
+  background: #fff7ea;
 }
 
 #UI {
